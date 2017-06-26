@@ -1,0 +1,12 @@
+target 'RN_OR_IOS' do
+platform :ios, "8.0"
+pod 'React', :path => '../node_modules/react-native', :subspecs => [
+    'Core',
+    'RCTNetwork',
+    'RCTImage',
+    'RCTText',
+    'RCTWebSocket',
+    'RCTLinkingIOS',
+]
+
+end
