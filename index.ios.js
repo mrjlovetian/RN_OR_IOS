@@ -1,21 +1,8 @@
-import React,
-{
-    Component
-}from 'react';
+/*
+ * @Author: 余洪江 
+ * @Date: 2017-06-27 16:38:59 
+ * @Last Modified by: 余洪江
+ * @Last Modified time: 2017-06-27 17:06:45
+ */
 
-import {
-    AppRegistry,
-    Text,
-    View
-}from 'react-native';
-
-class RN_OR_IOS extends Component{
-        render (){
-        return (
-            <View style={{flex:1}}>
-                <Text >myapp</Text>
-                </View>
-        )
-    }
-}
-AppRegistry.registerComponent('RN_OR_IOS', ()=>RN_OR_IOS);
+import './app'
