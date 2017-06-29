@@ -13,6 +13,7 @@
 		C245C46D1F03BD8F00946C26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C245C46B1F03BD8F00946C26 /* Main.storyboard */; };
 		C245C46F1F03BD8F00946C26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C245C46E1F03BD8F00946C26 /* Assets.xcassets */; };
 		C245C4721F03BD8F00946C26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C245C4701F03BD8F00946C26 /* LaunchScreen.storyboard */; };
+		C245EC431F05248500DF9A0D /* PushNative.m in Sources */ = {isa = PBXBuildFile; fileRef = C245EC421F05248500DF9A0D /* PushNative.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,8 @@
 		C245C4711F03BD8F00946C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C245C4731F03BD8F00946C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C245C4791F03BE4800946C26 /* RN_OR_IOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RN_OR_IOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		C245EC411F05248500DF9A0D /* PushNative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushNative.h; sourceTree = "<group>"; };
+		C245EC421F05248500DF9A0D /* PushNative.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushNative.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 			children = (
 				C245C4671F03BD8F00946C26 /* AppDelegate.swift */,
 				C245C4691F03BD8F00946C26 /* ViewController.swift */,
+				C245EC411F05248500DF9A0D /* PushNative.h */,
+				C245EC421F05248500DF9A0D /* PushNative.m */,
 				C245C46B1F03BD8F00946C26 /* Main.storyboard */,
 				C245C46E1F03BD8F00946C26 /* Assets.xcassets */,
 				C245C4701F03BD8F00946C26 /* LaunchScreen.storyboard */,
@@ -215,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C245C46A1F03BD8F00946C26 /* ViewController.swift in Sources */,
+				C245EC431F05248500DF9A0D /* PushNative.m in Sources */,
 				C245C4681F03BD8F00946C26 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -16,6 +16,10 @@ class ViewController: UIViewController {
         let jsCodeLocation = NSURL(string:"http://192.168.6.176:8081/index.ios.bundle?platform=ios&dev=true");
         let rootView = RCTRootView(bundleURL: jsCodeLocation! as URL, moduleName: "RN_OR_IOS", initialProperties: nil, launchOptions: nil)
         
+        ///加载静态资源
+//        let path = Bundle.main.path(forResource: "index.ios", ofType: "jsbundle")
+//        let rootView = RCTRootView(bundleURL: NSURL(string: path!)! as URL, moduleName: "RNforSaaS", initialProperties: nil, launchOptions: nil);
+        
         self.view.addSubview(rootView!);
         
         rootView?.frame = self.view.bounds
