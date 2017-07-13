@@ -10,7 +10,7 @@
 #import <React/RCTBridge.h>
 
 ///导入需要跳转的页面
-#import "RNforSaaS-Swift.h"
+#import "RN_OR_IOS-Swift.h"
 
 @implementation PushNative
 
@@ -22,11 +22,11 @@ RCT_EXPORT_MODULE()
     RCT_EXPORT_METHOD(openVC: (NSString *)msg){
         NSLog(@"接收到RN的参数是%@", msg);
         dispatch_sync(dispatch_get_main_queue(), ^{
-            DestinationViewController *vc = [[DestinationViewController alloc] init];
-            
-             [[[[UIApplication sharedApplication].delegate window] rootViewController] presentViewController:vc animated:YES completion:^{
-                 
-             }];
+//            DestinationViewController *vc = [[DestinationViewController alloc] init];
+//            
+//             [[[[UIApplication sharedApplication].delegate window] rootViewController] presentViewController:vc animated:YES completion:^{
+//                 
+//             }];
             
         });
     }
